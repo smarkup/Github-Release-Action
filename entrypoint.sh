@@ -9,4 +9,4 @@ echo "\$RELEASE_ASSET_PATH=$RELEASE_ASSET_PATH"
 
 hub version
 hub release create --draft --attach $RELEASE_ASSET_PATH --message $GIT_TAG $GIT_TAG
-hub edit --draft=false -m "" $GIT_TAG
+hub release edit --draft=false -m "" $GIT_TAG
