@@ -18,5 +18,6 @@ jobs:
         GITHUB_USER: ${{ github.actor }}
         GIT_TAG: '0.1.0'
         RELEASE_ASSET_PATH: app-release.zip
+        PUBLISH_RELEASE: false
 
 ```
