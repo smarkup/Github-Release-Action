@@ -16,7 +16,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USER: ${{ github.actor }}
-        GITHUB_REF: ${{ github.ref }}
+        GIT_TAG: '0.1.0'
         RELEASE_ASSET_PATH: app-release.zip
 
 ```
